@@ -31,6 +31,10 @@ Once the extension is installed, simply use it in your code by  :
 ```php
 <?= \kholmatov\lacaixa\RedsysWDG::getFormData($DS_MERCHANT_ORDER,$DS_MERCHANT_AMOUNT,$languageCode,$ProductDescription); ?>
 ```
+or get result on Json format:
+```php
+<?= \kholmatov\lacaixa\RedsysWDG::getFormDataJson($DS_MERCHANT_ORDER,$DS_MERCHANT_AMOUNT,$languageCode,$ProductDescription); ?>
+```
 
 Put this example  code in any controller script for testing success url in action (URLOK): 
 
