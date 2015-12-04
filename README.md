@@ -29,7 +29,8 @@ Setting configuration file ```kholmatov/yii2-lacaixa/config.php```
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \kholmatov\lacaixa\RedsysWDG::getFormData($DS_MERCHANT_ORDER,$DS_MERCHANT_AMOUNT,$languageCode,$ProductDescription); ?>```
+<?= \kholmatov\lacaixa\RedsysWDG::getFormData($DS_MERCHANT_ORDER,$DS_MERCHANT_AMOUNT,$languageCode,$ProductDescription); ?>
+```
 
 Put this example  code in any controller script for testing success url in action (URLOK): 
 
