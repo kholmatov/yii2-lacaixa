@@ -1,0 +1,21 @@
+{
+    "name": "kholmatov/yii2-lacaixa",
+    "description": "Yii2 lacaixa module to integrate the payment gateway (TPV Virtual) Redsys to be integrated into virtual web shops that have been developed under Yii2.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","lacaixa","kholmatov","module","redsys"],
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Erkin Kholmatov",
+            "email": "ekholmatov@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "kholmatov\\lacaixa\\": ""
+        }
+    }
+}
