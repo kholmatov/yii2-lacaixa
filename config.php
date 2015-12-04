@@ -7,11 +7,11 @@
 return [
     'params' => [
         // list of parameters
-        'FUC'=>'335102489', //Ds_Merchant_MerchantCode
+        'FUC'=>'', //Ds_Merchant_MerchantCode
         'TERMINAL'=>'001', //Ds_Merchant_Terminal
         'CURRENCY'=>'978', //Ds_Merchant_Currency
         'TRANSACTIONTYPE'=>'0',//DS_MERCHANT_TRANSACTIONTYPE
-        'KC'=>'sq7HjrUOBfKmC576ILgskD5srU870gJ7', //Clave secreta de encriptación
+        'KC'=>'', //Clave secreta de encriptación
         'FORM_URL'=>'https://sis-t.redsys.es:25443/sis/realizarPago',//La URL de llamada del entorno de test es
         'URL'=>'',//DS_MERCHANT_MERCHANTURL
         'URLOK'=>'',//DS_MERCHANT_URLOK
